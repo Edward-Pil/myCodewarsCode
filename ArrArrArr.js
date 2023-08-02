@@ -18,5 +18,6 @@ function explode(x){
     else {return 'Void!'}
     return res;
 }
+
 var fn = explode(x);
 console.log (fn);

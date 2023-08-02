@@ -1,0 +1,21 @@
+var h = 3;
+var bounce = 0.66;
+var window = 1.5;
+
+function bouncingBall(h,  bounce,  window) {
+    var res=-1;
+    if ((h>0)&&(bounce>0)&&(bounce<1)&&(window<h)){
+        while(h>window){
+            h=h*bounce;
+            res=res+2;
+            //console.log ('res',res,'h',h);
+        } 
+        return res;
+    }
+    else{
+        return -1;
+    }
+}
+
+var fn = solution(str);
+console.log (fn);
