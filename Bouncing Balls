@@ -17,5 +17,5 @@ function bouncingBall(h,  bounce,  window) {
     }
 }
 
-var fn = solution(str);
+var fn = bouncingBall(h,  bounce,  window);
 console.log (fn);
